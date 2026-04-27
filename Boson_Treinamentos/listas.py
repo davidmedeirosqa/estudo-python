@@ -1,9 +1,9 @@
 # notas = [5, 7, 8, 6, 9] # Sequência de valores
 # print(notas[1])
 
-n1 = [4, 6, 7, 8, 0, 3]
-n2 = [1, 6, 3, 0, 12, 4]
-valores = n1 + n2
+# n1 = [4, 6, 7, 8, 0, 3]
+# n2 = [1, 6, 3, 0, 12, 4]
+# valores = n1 + n2
 
 # print(valores)
 # print(valores[-2]) #  Acessando valores com índice -2 (De trás para frente
@@ -28,4 +28,25 @@ valores = n1 + n2
 # valores.insert(3, 21) # Acrescenta o número 21 no index 3
 # print(valores)
 
-# print(12 in valores) # Verifica se o número 12 existe na lista
+# print(12 in valores) # Verifica se o número 12 existe na   
+# planetas = list() # Cria uma lista vazia 
+
+# planetas = ['Mercúrio', 'Vênus', 'Marte', 'Saturno', 'Urano', 'Netuno']
+
+# for planeta in planetas:
+#     print(planeta)
+
+# Exercício
+bebidas = []
+
+for i in range(5):
+    bebida = input(f'Digite uma bebida: ')
+    bebidas.append(bebida)
+
+bebidas.sort()
+
+print('\nVocê escolheu as bebidas: ')
+for bebida in bebidas:
+    print(bebida)
+
+print('Saúde!')
